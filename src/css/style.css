@@ -180,4 +180,38 @@ background-clip: text;
    padding-top: 132px;
 }
 
+/* =========================================================== */
+/* SECTION WORKS */
+/* =========================================================== */
 
+.works-title {
+   font-weight: 700;
+font-size: 28px;
+line-height: 1.78;
+letter-spacing: 0.03em;
+background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.line {
+   height: 100%;
+   border: 1px solid;
+
+border-image-source: radial-gradient(62.73% 1550% at 50% 700%, rgba(242, 187, 90, 0.876812) 0%, #FFE195 47.11%, rgba(191, 122, 0, 0.75) 62.27%, rgba(15, 18, 24, 0) 100%);
+
+background: radial-gradient(62.73% 1550% at 50% 700%, rgba(242, 187, 90, 0.876812) 0%, #FFE195 47.11%, rgba(191, 122, 0, 0.75) 62.27%, rgba(15, 18, 24, 0) 100%);
+
+}
+
+.works-text {
+   display: flex;
+   justify-content: flex-end;
+   gap: 27px;
+}
+
+.works-list {
+   display: flex;
+   gap: 79px;
+}

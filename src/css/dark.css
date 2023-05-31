@@ -1,0 +1,18 @@
+
+
+body {
+   background-color: #050607;
+}
+
+.description {
+   color: #EFF3FB;
+}
+
+.btn-gold {
+   color: #0A0D11;
+   background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+   border: 1px solid;
+border-image-source: linear-gradient(277.44deg, rgba(255, 220, 143, 0.2) 0%, rgba(0, 0, 0, 0) 40.35%);
+
+
+}

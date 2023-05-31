@@ -4,10 +4,72 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/dark.css" id="theme">
    <title>Orpheus</title>
 </head>
 <body>
+<div class="wrapper">
+   <div class="elipse-one"></div>
+   <div class="elipse-two"></div>
+   <header class="header">
+<div class="container header-container">
+
+      <a href="#" class="header-logo">
+         <img src="./image/logo.svg" alt="logo">
+      </a>
+
+      <nav class="header-nav">
+         <ul class="nav-list">
+            <li class="nav-item">
+               <a href="#">Works</a>
+            </li>
+            <li class="nav-item">
+               <a href="#">Contribution</a>
+            </li>
+            <li class="nav-item">
+               <a href="#">Community</a>
+            </li>
+            <li class="nav-item">
+               <a href="#">Get in Touch</a>
+            </li>
+         </ul>
+      </nav>
+
+      <button class="header-btn" type="button">
+         <svg class="icon-theme" width="29" height="29">
+            <use href="./image/symbol-defs.svg#icon-Sun"></use>
+          </svg>
+          <svg class="icon-theme hidden" width="29" height="29">
+            <use href="./image/symbol-defs.svg#icon-moon"></use>
+          </svg>
+      </button>
+</div>
+   </header>
+   <main>
+      <section class="hero">
+         <div class="container hero-box">
+            <div class="hero-text">
+                  <h1 class="hero-title">Yet the story of <span>Orpheus</span></h1>
+                  <p class="description">Product & Graphic Designer, with experience in delivering end-to-end UX/UI design for software products.</p>
+                  <div class="hero-btn">
+                     <button class="btn-transparent btn">WORKS
+                        <img src="./image/arrow.svg" alt="arrow">
+                     </button>
+                     <button class="btn-gold btn">FREE STUFF</button>
+                  </div>
+               </div>
+               <div class="hero-image">
+                  <img class="main-image" src="./image/Hero-dark-min.png" alt="statue dark">
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+</div>
    <script src="./index.js" type="module"></script>
 </body>
 </html>
